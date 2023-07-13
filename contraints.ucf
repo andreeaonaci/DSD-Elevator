@@ -1,0 +1,30 @@
+net "floor(3)" loc = V10 | iostandard = lvcmos33;
+net "floor(2)" loc = U11 | iostandard = lvcmos33;
+net "floor(1)" loc = U12 | iostandard = lvcmos33;
+net "floor(0)" loc = H6 | iostandard = lvcmos33;
+
+net "reset" loc = J15 | iostandard = lvcmos33;
+net "buton" loc = N17 | iostandard = lvcmos33;
+net "ok" loc = M17 | iostandard = lvcmos33;
+net "usa" loc = R15 | iostandard = lvcmos33;
+net "sensor" loc = M13 | iostandard = lvcmos33;
+net "dir" loc = R17 | iostandard = lvcmos33;
+
+net "cathode(6)" loc = T10 | iostandard = lvcmos33;
+net "cathode(5)" loc = R10 | iostandard = lvcmos33;
+net "cathode(4)" loc = K16 | iostandard = lvcmos33;
+net "cathode(3)" loc = K13 | iostandard = lvcmos33;
+net "cathode(2)" loc = P15 | iostandard = lvcmos33;
+net "cathode(1)" loc = T11 | iostandard = lvcmos33;
+net "cathode(0)" loc = L18 | iostandard = lvcmos33;
+
+net "date_out(5)" loc = T14 | iostandard = lvcmos33;
+net "date_out(4)" loc = P14 | iostandard = lvcmos33;
+net "date_out(3)" loc = J14 | iostandard = lvcmos33;
+net "date_out(2)" loc = T9 | iostandard = lvcmos33;
+net "date_out(1)" loc = J18 | iostandard = lvcmos33;
+net "date_out(0)" loc = J17 | iostandard = lvcmos33;
+
+net "clk" loc = E3 | iostandard = lvcmos33;
+net "clk": tnm_net = sys_clk_pin;
+timespec TS_sys_clk_pin = period sys_clk_pin 100 MHz high 50%;

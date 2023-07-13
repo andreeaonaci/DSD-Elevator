@@ -1,0 +1,8 @@
+vhdl isim_temp "ssd.vhd"
+vhdl isim_temp "registeer.vhd"
+vhdl isim_temp "raam.vhd"
+vhdl isim_temp "divizor.vhd"
+vhdl isim_temp "debounceer.vhd"
+vhdl isim_temp "counteer.vhd"
+vhdl isim_temp "elevator_final_bun.vhd"
+vhdl isim_temp "simulation.vhd"

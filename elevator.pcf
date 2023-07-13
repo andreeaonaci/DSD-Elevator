@@ -1,0 +1,53 @@
+//! **************************************************************************
+// Written by: Map P.20131013 on Sun May 15 22:44:05 2022
+//! **************************************************************************
+
+SCHEMATIC START;
+COMP "sensor" LOCATE = SITE "M13" LEVEL 1;
+COMP "clk" LOCATE = SITE "E3" LEVEL 1;
+COMP "dir" LOCATE = SITE "R17" LEVEL 1;
+COMP "ok" LOCATE = SITE "M17" LEVEL 1;
+COMP "floor<0>" LOCATE = SITE "H6" LEVEL 1;
+COMP "floor<1>" LOCATE = SITE "U12" LEVEL 1;
+COMP "floor<2>" LOCATE = SITE "U11" LEVEL 1;
+COMP "floor<3>" LOCATE = SITE "V10" LEVEL 1;
+COMP "cathode<0>" LOCATE = SITE "L18" LEVEL 1;
+COMP "cathode<1>" LOCATE = SITE "T11" LEVEL 1;
+COMP "cathode<2>" LOCATE = SITE "P15" LEVEL 1;
+COMP "date_out<0>" LOCATE = SITE "J17" LEVEL 1;
+COMP "cathode<3>" LOCATE = SITE "K13" LEVEL 1;
+COMP "date_out<1>" LOCATE = SITE "J18" LEVEL 1;
+COMP "cathode<4>" LOCATE = SITE "K16" LEVEL 1;
+COMP "date_out<2>" LOCATE = SITE "T9" LEVEL 1;
+COMP "buton" LOCATE = SITE "N17" LEVEL 1;
+COMP "cathode<5>" LOCATE = SITE "R10" LEVEL 1;
+COMP "date_out<3>" LOCATE = SITE "J14" LEVEL 1;
+COMP "cathode<6>" LOCATE = SITE "T10" LEVEL 1;
+COMP "date_out<4>" LOCATE = SITE "P14" LEVEL 1;
+COMP "date_out<5>" LOCATE = SITE "T14" LEVEL 1;
+COMP "reset" LOCATE = SITE "J15" LEVEL 1;
+COMP "usa" LOCATE = SITE "R15" LEVEL 1;
+TIMEGRP sys_clk_pin = BEL "step1/date_out_3" BEL "step1/date_out_2" BEL
+        "step1/date_out_1" BEL "step1/date_out_0" BEL "step2/q3" BEL
+        "step2/q2" BEL "step2/q1" BEL "step5/semnal_divizat" BEL
+        "step5/counter_0" BEL "step5/counter_1" BEL "step5/counter_2" BEL
+        "step5/counter_3" BEL "step5/counter_4" BEL "step5/counter_5" BEL
+        "step5/counter_6" BEL "step5/counter_7" BEL "step5/counter_8" BEL
+        "step5/counter_9" BEL "step5/counter_10" BEL "step5/counter_11" BEL
+        "step5/counter_12" BEL "step5/counter_13" BEL "step5/counter_14" BEL
+        "step5/counter_15" BEL "step5/counter_16" BEL "step5/counter_17" BEL
+        "step5/counter_18" BEL "step5/counter_19" BEL "step5/counter_20" BEL
+        "step5/counter_21" BEL "step5/counter_22" BEL "step5/counter_23" BEL
+        "step5/counter_24" BEL "step5/counter_25" BEL "step5/counter_26" BEL
+        "step2/contor_0" BEL "step2/contor_1" BEL "step2/contor_2" BEL
+        "step2/contor_3" BEL "step2/contor_4" BEL "step2/contor_5" BEL
+        "step2/contor_6" BEL "step2/contor_7" BEL "step2/contor_8" BEL
+        "step2/contor_9" BEL "step2/contor_10" BEL "step2/contor_11" BEL
+        "step2/contor_12" BEL "step2/contor_13" BEL "step2/contor_14" BEL
+        "step2/contor_15" BEL "step3/etajj_0" BEL "step3/etajj_1" BEL
+        "step3/etajj_2" BEL "step3/etajj_3" BEL "clk_BUFGP/BUFG" BEL
+        "step1/Mram_stocare1" BEL "step1/Mram_stocare2" BEL
+        "step1/Mram_stocare3" BEL "step1/Mram_stocare4";
+TS_sys_clk_pin = PERIOD TIMEGRP "sys_clk_pin" 100 MHz HIGH 50%;
+SCHEMATIC END;
+

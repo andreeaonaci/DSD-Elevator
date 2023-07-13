@@ -1,0 +1,8 @@
+vhdl work "ssd.vhd"
+vhdl work "registeer.vhd"
+vhdl work "raam.vhd"
+vhdl work "nice_display.vhd"
+vhdl work "divizor.vhd"
+vhdl work "debounceer.vhd"
+vhdl work "counteer.vhd"
+vhdl work "elevator_final_bun.vhd"

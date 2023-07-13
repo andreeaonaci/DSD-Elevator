@@ -1,0 +1,1 @@
+-intstyle "ise" -incremental -lib "secureip" -o "C:/Xilinx/elevator_final_bun/simulation_isim_beh.exe" -prj "C:/Xilinx/elevator_final_bun/simulation_beh.prj" "work.simulation" 

@@ -1,0 +1,32 @@
+Running: C:\Xilinx\14.7\ISE_DS\ISE\bin\nt64\unwrapped\fuse.exe -intstyle ise -incremental -lib secureip -o C:/Xilinx/elevator_final_bun/simulation_isim_beh.exe -prj C:/Xilinx/elevator_final_bun/simulation_beh.prj work.simulation 
+ISim P.20131013 (signature 0x7708f090)
+Number of CPUs detected in this system: 16
+Turning on mult-threading, number of parallel sub-compilation jobs: 32 
+Determining compilation order of HDL files
+Parsing VHDL file "C:/Xilinx/elevator_final_bun/ssd.vhd" into library work
+Parsing VHDL file "C:/Xilinx/elevator_final_bun/registeer.vhd" into library work
+Parsing VHDL file "C:/Xilinx/elevator_final_bun/raam.vhd" into library work
+Parsing VHDL file "C:/Xilinx/elevator_final_bun/divizor.vhd" into library work
+Parsing VHDL file "C:/Xilinx/elevator_final_bun/debounceer.vhd" into library work
+Parsing VHDL file "C:/Xilinx/elevator_final_bun/counteer.vhd" into library work
+Parsing VHDL file "C:/Xilinx/elevator_final_bun/elevator_final_bun.vhd" into library work
+Parsing VHDL file "C:/Xilinx/elevator_final_bun/simulation.vhd" into library work
+Starting static elaboration
+Completed static elaboration
+Compiling package standard
+Compiling package std_logic_1164
+Compiling package std_logic_arith
+Compiling package std_logic_unsigned
+Compiling architecture behavioral of entity memram [memram_default]
+Compiling architecture behavioral of entity debouncer [debouncer_default]
+Compiling architecture behavioral of entity counter [counter_default]
+Compiling architecture behavioral of entity registru [registru_default]
+Compiling architecture behavioral of entity divizor [divizor_default]
+Compiling architecture behavioral of entity ssd [ssd_default]
+Compiling architecture behavioral of entity elevator [elevator_default]
+Compiling architecture behavior of entity simulation
+Time Resolution for simulation is 1ps.
+Compiled 19 VHDL Units
+Built simulation executable C:/Xilinx/elevator_final_bun/simulation_isim_beh.exe
+Fuse Memory Usage: 35028 KB
+Fuse CPU Usage: 312 ms

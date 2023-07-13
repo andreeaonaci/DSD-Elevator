@@ -1,0 +1,153 @@
+xst -intstyle ise -ifn "C:/Xilinx/elevator_final_bun/elevator.xst" -ofn "C:/Xilinx/elevator_final_bun/elevator.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -i -p xc7a100t-csg324-1 elevator.ngc elevator.ngd  
+map -intstyle ise -p xc7a100t-csg324-1 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -mt off -ir off -pr off -lc off -power off -o elevator_map.ncd elevator.ngd elevator.pcf 
+par -w -intstyle ise -ol high -mt off elevator_map.ncd elevator.ncd elevator.pcf 
+trce -intstyle ise -v 3 -s 1 -n 3 -fastpaths -xml elevator.twx elevator.ncd -o elevator.twr elevator.pcf 
+xst -intstyle ise -ifn "C:/Xilinx/elevator_final_bun/elevator.xst" -ofn "C:/Xilinx/elevator_final_bun/elevator.syr" 
+xst -intstyle ise -ifn "C:/Xilinx/elevator_final_bun/elevator.xst" -ofn "C:/Xilinx/elevator_final_bun/elevator.syr" 
+xst -intstyle ise -ifn "C:/Xilinx/elevator_final_bun/elevator.xst" -ofn "C:/Xilinx/elevator_final_bun/elevator.syr" 
+xst -intstyle ise -ifn "C:/Xilinx/elevator_final_bun/elevator.xst" -ofn "C:/Xilinx/elevator_final_bun/elevator.syr" 
+xst -intstyle ise -ifn "C:/Xilinx/elevator_final_bun/elevator.xst" -ofn "C:/Xilinx/elevator_final_bun/elevator.syr" 
+xst -intstyle ise -ifn "C:/Xilinx/elevator_final_bun/elevator.xst" -ofn "C:/Xilinx/elevator_final_bun/elevator.syr" 
+xst -intstyle ise -ifn "C:/Xilinx/elevator_final_bun/elevator.xst" -ofn "C:/Xilinx/elevator_final_bun/elevator.syr" 
+xst -intstyle ise -ifn "C:/Xilinx/elevator_final_bun/elevator.xst" -ofn "C:/Xilinx/elevator_final_bun/elevator.syr" 
+xst -intstyle ise -ifn "C:/Xilinx/elevator_final_bun/elevator.xst" -ofn "C:/Xilinx/elevator_final_bun/elevator.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -i -p xc7a100t-csg324-1 elevator.ngc elevator.ngd  
+map -intstyle ise -p xc7a100t-csg324-1 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -mt off -ir off -pr off -lc off -power off -o elevator_map.ncd elevator.ngd elevator.pcf 
+par -w -intstyle ise -ol high -mt off elevator_map.ncd elevator.ncd elevator.pcf 
+trce -intstyle ise -v 3 -s 1 -n 3 -fastpaths -xml elevator.twx elevator.ncd -o elevator.twr elevator.pcf 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -i -p xc7a100t-csg324-1 elevator.ngc elevator.ngd  
+map -intstyle ise -p xc7a100t-csg324-1 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -mt off -ir off -pr off -lc off -power off -o elevator_map.ncd elevator.ngd elevator.pcf 
+par -w -intstyle ise -ol high -mt off elevator_map.ncd elevator.ncd elevator.pcf 
+trce -intstyle ise -v 3 -s 1 -n 3 -fastpaths -xml elevator.twx elevator.ncd -o elevator.twr elevator.pcf 
+bitgen -intstyle ise -f elevator.ut elevator.ncd 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc contraints.ucf -p xc7a100t-csg324-1 elevator.ngc elevator.ngd  
+map -intstyle ise -p xc7a100t-csg324-1 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -mt off -ir off -pr off -lc off -power off -o elevator_map.ncd elevator.ngd elevator.pcf 
+par -w -intstyle ise -ol high -mt off elevator_map.ncd elevator.ncd elevator.pcf 
+trce -intstyle ise -v 3 -s 1 -n 3 -fastpaths -xml elevator.twx elevator.ncd -o elevator.twr elevator.pcf -ucf contraints.ucf 
+bitgen -intstyle ise -f elevator.ut elevator.ncd 
+xst -intstyle ise -ifn "C:/Xilinx/elevator_final_bun/elevator.xst" -ofn "C:/Xilinx/elevator_final_bun/elevator.syr" 
+xst -intstyle ise -ifn "C:/Xilinx/elevator_final_bun/elevator.xst" -ofn "C:/Xilinx/elevator_final_bun/elevator.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc contraints.ucf -p xc7a100t-csg324-1 elevator.ngc elevator.ngd  
+map -intstyle ise -p xc7a100t-csg324-1 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -mt off -ir off -pr off -lc off -power off -o elevator_map.ncd elevator.ngd elevator.pcf 
+par -w -intstyle ise -ol high -mt off elevator_map.ncd elevator.ncd elevator.pcf 
+trce -intstyle ise -v 3 -s 1 -n 3 -fastpaths -xml elevator.twx elevator.ncd -o elevator.twr elevator.pcf -ucf contraints.ucf 
+bitgen -intstyle ise -f elevator.ut elevator.ncd 
+xst -intstyle ise -ifn "C:/Xilinx/elevator_final_bun/elevator.xst" -ofn "C:/Xilinx/elevator_final_bun/elevator.syr" 
+xst -intstyle ise -ifn "C:/Xilinx/elevator_final_bun/elevator.xst" -ofn "C:/Xilinx/elevator_final_bun/elevator.syr" 
+xst -intstyle ise -ifn "C:/Xilinx/elevator_final_bun/elevator.xst" -ofn "C:/Xilinx/elevator_final_bun/elevator.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc contraints.ucf -p xc7a100t-csg324-1 elevator.ngc elevator.ngd  
+map -intstyle ise -p xc7a100t-csg324-1 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -mt off -ir off -pr off -lc off -power off -o elevator_map.ncd elevator.ngd elevator.pcf 
+par -w -intstyle ise -ol high -mt off elevator_map.ncd elevator.ncd elevator.pcf 
+trce -intstyle ise -v 3 -s 1 -n 3 -fastpaths -xml elevator.twx elevator.ncd -o elevator.twr elevator.pcf -ucf contraints.ucf 
+bitgen -intstyle ise -f elevator.ut elevator.ncd 
+xst -intstyle ise -ifn "C:/Xilinx/elevator_final_bun/elevator.xst" -ofn "C:/Xilinx/elevator_final_bun/elevator.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc contraints.ucf -p xc7a100t-csg324-1 elevator.ngc elevator.ngd  
+map -intstyle ise -p xc7a100t-csg324-1 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -mt off -ir off -pr off -lc off -power off -o elevator_map.ncd elevator.ngd elevator.pcf 
+par -w -intstyle ise -ol high -mt off elevator_map.ncd elevator.ncd elevator.pcf 
+trce -intstyle ise -v 3 -s 1 -n 3 -fastpaths -xml elevator.twx elevator.ncd -o elevator.twr elevator.pcf -ucf contraints.ucf 
+bitgen -intstyle ise -f elevator.ut elevator.ncd 
+xst -intstyle ise -ifn "C:/Xilinx/elevator_final_bun/elevator.xst" -ofn "C:/Xilinx/elevator_final_bun/elevator.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc contraints.ucf -p xc7a100t-csg324-1 elevator.ngc elevator.ngd  
+map -intstyle ise -p xc7a100t-csg324-1 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -mt off -ir off -pr off -lc off -power off -o elevator_map.ncd elevator.ngd elevator.pcf 
+par -w -intstyle ise -ol high -mt off elevator_map.ncd elevator.ncd elevator.pcf 
+trce -intstyle ise -v 3 -s 1 -n 3 -fastpaths -xml elevator.twx elevator.ncd -o elevator.twr elevator.pcf -ucf contraints.ucf 
+bitgen -intstyle ise -f elevator.ut elevator.ncd 
+xst -intstyle ise -ifn "C:/Xilinx/elevator_final_bun/elevator.xst" -ofn "C:/Xilinx/elevator_final_bun/elevator.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc contraints.ucf -p xc7a100t-csg324-1 elevator.ngc elevator.ngd  
+map -intstyle ise -p xc7a100t-csg324-1 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -mt off -ir off -pr off -lc off -power off -o elevator_map.ncd elevator.ngd elevator.pcf 
+par -w -intstyle ise -ol high -mt off elevator_map.ncd elevator.ncd elevator.pcf 
+trce -intstyle ise -v 3 -s 1 -n 3 -fastpaths -xml elevator.twx elevator.ncd -o elevator.twr elevator.pcf -ucf contraints.ucf 
+bitgen -intstyle ise -f elevator.ut elevator.ncd 
+xst -intstyle ise -ifn "C:/Xilinx/elevator_final_bun/elevator.xst" -ofn "C:/Xilinx/elevator_final_bun/elevator.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc contraints.ucf -p xc7a100t-csg324-1 elevator.ngc elevator.ngd  
+map -intstyle ise -p xc7a100t-csg324-1 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -mt off -ir off -pr off -lc off -power off -o elevator_map.ncd elevator.ngd elevator.pcf 
+par -w -intstyle ise -ol high -mt off elevator_map.ncd elevator.ncd elevator.pcf 
+trce -intstyle ise -v 3 -s 1 -n 3 -fastpaths -xml elevator.twx elevator.ncd -o elevator.twr elevator.pcf -ucf contraints.ucf 
+bitgen -intstyle ise -f elevator.ut elevator.ncd 
+xst -intstyle ise -ifn "C:/Xilinx/elevator_final_bun/elevator.xst" -ofn "C:/Xilinx/elevator_final_bun/elevator.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc contraints.ucf -p xc7a100t-csg324-1 elevator.ngc elevator.ngd  
+map -intstyle ise -p xc7a100t-csg324-1 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -mt off -ir off -pr off -lc off -power off -o elevator_map.ncd elevator.ngd elevator.pcf 
+par -w -intstyle ise -ol high -mt off elevator_map.ncd elevator.ncd elevator.pcf 
+trce -intstyle ise -v 3 -s 1 -n 3 -fastpaths -xml elevator.twx elevator.ncd -o elevator.twr elevator.pcf -ucf contraints.ucf 
+bitgen -intstyle ise -f elevator.ut elevator.ncd 
+xst -intstyle ise -ifn "C:/Xilinx/elevator_final_bun/elevator.xst" -ofn "C:/Xilinx/elevator_final_bun/elevator.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc contraints.ucf -p xc7a100t-csg324-1 elevator.ngc elevator.ngd  
+map -intstyle ise -p xc7a100t-csg324-1 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -mt off -ir off -pr off -lc off -power off -o elevator_map.ncd elevator.ngd elevator.pcf 
+par -w -intstyle ise -ol high -mt off elevator_map.ncd elevator.ncd elevator.pcf 
+trce -intstyle ise -v 3 -s 1 -n 3 -fastpaths -xml elevator.twx elevator.ncd -o elevator.twr elevator.pcf -ucf contraints.ucf 
+bitgen -intstyle ise -f elevator.ut elevator.ncd 
+xst -intstyle ise -ifn "C:/Xilinx/elevator_final_bun/elevator.xst" -ofn "C:/Xilinx/elevator_final_bun/elevator.syr" 
+xst -intstyle ise -ifn "C:/Xilinx/elevator_final_bun/elevator.xst" -ofn "C:/Xilinx/elevator_final_bun/elevator.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc contraints.ucf -p xc7a100t-csg324-1 elevator.ngc elevator.ngd  
+map -intstyle ise -p xc7a100t-csg324-1 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -mt off -ir off -pr off -lc off -power off -o elevator_map.ncd elevator.ngd elevator.pcf 
+par -w -intstyle ise -ol high -mt off elevator_map.ncd elevator.ncd elevator.pcf 
+trce -intstyle ise -v 3 -s 1 -n 3 -fastpaths -xml elevator.twx elevator.ncd -o elevator.twr elevator.pcf -ucf contraints.ucf 
+bitgen -intstyle ise -f elevator.ut elevator.ncd 
+xst -intstyle ise -ifn "C:/Xilinx/elevator_final_bun/elevator.xst" -ofn "C:/Xilinx/elevator_final_bun/elevator.syr" 
+xst -intstyle ise -ifn "C:/Xilinx/elevator_final_bun/elevator.xst" -ofn "C:/Xilinx/elevator_final_bun/elevator.syr" 
+xst -intstyle ise -ifn "C:/Xilinx/elevator_final_bun/elevator.xst" -ofn "C:/Xilinx/elevator_final_bun/elevator.syr" 
+xst -intstyle ise -ifn "C:/Xilinx/elevator_final_bun/elevator.xst" -ofn "C:/Xilinx/elevator_final_bun/elevator.syr" 
+xst -intstyle ise -ifn "C:/Xilinx/elevator_final_bun/elevator.xst" -ofn "C:/Xilinx/elevator_final_bun/elevator.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc contraints.ucf -p xc7a100t-csg324-1 elevator.ngc elevator.ngd  
+map -intstyle ise -p xc7a100t-csg324-1 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -mt off -ir off -pr off -lc off -power off -o elevator_map.ncd elevator.ngd elevator.pcf 
+par -w -intstyle ise -ol high -mt off elevator_map.ncd elevator.ncd elevator.pcf 
+trce -intstyle ise -v 3 -s 1 -n 3 -fastpaths -xml elevator.twx elevator.ncd -o elevator.twr elevator.pcf -ucf contraints.ucf 
+bitgen -intstyle ise -f elevator.ut elevator.ncd 
+xst -intstyle ise -ifn "C:/Xilinx/elevator_final_bun/elevator.xst" -ofn "C:/Xilinx/elevator_final_bun/elevator.syr" 
+xst -intstyle ise -ifn "C:/Xilinx/elevator_final_bun/elevator.xst" -ofn "C:/Xilinx/elevator_final_bun/elevator.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc contraints.ucf -p xc7a100t-csg324-1 elevator.ngc elevator.ngd  
+map -intstyle ise -p xc7a100t-csg324-1 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -mt off -ir off -pr off -lc off -power off -o elevator_map.ncd elevator.ngd elevator.pcf 
+par -w -intstyle ise -ol high -mt off elevator_map.ncd elevator.ncd elevator.pcf 
+trce -intstyle ise -v 3 -s 1 -n 3 -fastpaths -xml elevator.twx elevator.ncd -o elevator.twr elevator.pcf -ucf contraints.ucf 
+bitgen -intstyle ise -f elevator.ut elevator.ncd 
+xst -intstyle ise -ifn "C:/Xilinx/elevator_final_bun/elevator.xst" -ofn "C:/Xilinx/elevator_final_bun/elevator.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc contraints.ucf -p xc7a100t-csg324-1 elevator.ngc elevator.ngd  
+map -intstyle ise -p xc7a100t-csg324-1 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -mt off -ir off -pr off -lc off -power off -o elevator_map.ncd elevator.ngd elevator.pcf 
+par -w -intstyle ise -ol high -mt off elevator_map.ncd elevator.ncd elevator.pcf 
+trce -intstyle ise -v 3 -s 1 -n 3 -fastpaths -xml elevator.twx elevator.ncd -o elevator.twr elevator.pcf -ucf contraints.ucf 
+bitgen -intstyle ise -f elevator.ut elevator.ncd 
+bitgen -intstyle ise -f elevator.ut elevator.ncd 
+xst -intstyle ise -ifn "C:/Xilinx/elevator_final_bun/elevator.xst" -ofn "C:/Xilinx/elevator_final_bun/elevator.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc contraints.ucf -p xc7a100t-csg324-1 elevator.ngc elevator.ngd  
+map -intstyle ise -p xc7a100t-csg324-1 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -mt off -ir off -pr off -lc off -power off -o elevator_map.ncd elevator.ngd elevator.pcf 
+par -w -intstyle ise -ol high -mt off elevator_map.ncd elevator.ncd elevator.pcf 
+trce -intstyle ise -v 3 -s 1 -n 3 -fastpaths -xml elevator.twx elevator.ncd -o elevator.twr elevator.pcf -ucf contraints.ucf 
+bitgen -intstyle ise -f elevator.ut elevator.ncd 
+xst -intstyle ise -ifn "C:/Xilinx/elevator_final_bun/elevator.xst" -ofn "C:/Xilinx/elevator_final_bun/elevator.syr" 
+xst -intstyle ise -ifn "C:/Xilinx/elevator_final_bun/elevator.xst" -ofn "C:/Xilinx/elevator_final_bun/elevator.syr" 
+xst -intstyle ise -ifn "C:/Xilinx/elevator_final_bun/elevator.xst" -ofn "C:/Xilinx/elevator_final_bun/elevator.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc contraints.ucf -p xc7a100t-csg324-1 elevator.ngc elevator.ngd  
+map -intstyle ise -p xc7a100t-csg324-1 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -mt off -ir off -pr off -lc off -power off -o elevator_map.ncd elevator.ngd elevator.pcf 
+par -w -intstyle ise -ol high -mt off elevator_map.ncd elevator.ncd elevator.pcf 
+trce -intstyle ise -v 3 -s 1 -n 3 -fastpaths -xml elevator.twx elevator.ncd -o elevator.twr elevator.pcf -ucf contraints.ucf 
+bitgen -intstyle ise -f elevator.ut elevator.ncd 
+xst -intstyle ise -ifn "D:/Users/Documents/elevator_final_bun/elevator.xst" -ofn "D:/Users/Documents/elevator_final_bun/elevator.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc contraints.ucf -p xc7a100t-csg324-1 elevator.ngc elevator.ngd  
+map -intstyle ise -p xc7a100t-csg324-1 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -mt off -ir off -pr off -lc off -power off -o elevator_map.ncd elevator.ngd elevator.pcf 
+par -w -intstyle ise -ol high -mt off elevator_map.ncd elevator.ncd elevator.pcf 
+trce -intstyle ise -v 3 -s 1 -n 3 -fastpaths -xml elevator.twx elevator.ncd -o elevator.twr elevator.pcf -ucf contraints.ucf 
+xst -intstyle ise -ifn "D:/Users/Documents/elevator_final_bun/elevator.xst" -ofn "D:/Users/Documents/elevator_final_bun/elevator.syr" 
+xst -intstyle ise -ifn "D:/Users/Documents/elevator_final_bun/elevator.xst" -ofn "D:/Users/Documents/elevator_final_bun/elevator.syr" 
+xst -intstyle ise -ifn "D:/Users/Documents/elevator_final_bun/elevator.xst" -ofn "D:/Users/Documents/elevator_final_bun/elevator.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc contraints.ucf -p xc7a100t-csg324-1 elevator.ngc elevator.ngd  
+map -intstyle ise -p xc7a100t-csg324-1 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -mt off -ir off -pr off -lc off -power off -o elevator_map.ncd elevator.ngd elevator.pcf 
+par -w -intstyle ise -ol high -mt off elevator_map.ncd elevator.ncd elevator.pcf 
+trce -intstyle ise -v 3 -s 1 -n 3 -fastpaths -xml elevator.twx elevator.ncd -o elevator.twr elevator.pcf -ucf contraints.ucf 
+xst -intstyle ise -ifn "D:/Users/Documents/elevator_final_bun/elevator.xst" -ofn "D:/Users/Documents/elevator_final_bun/elevator.syr" 
+xst -intstyle ise -ifn "D:/Users/Documents/elevator_final_bun/elevator.xst" -ofn "D:/Users/Documents/elevator_final_bun/elevator.syr" 
+xst -intstyle ise -ifn "D:/Users/Documents/elevator_final_bun/elevator.xst" -ofn "D:/Users/Documents/elevator_final_bun/elevator.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc contraints.ucf -p xc7a100t-csg324-1 elevator.ngc elevator.ngd  
+map -intstyle ise -p xc7a100t-csg324-1 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -mt off -ir off -pr off -lc off -power off -o elevator_map.ncd elevator.ngd elevator.pcf 
+par -w -intstyle ise -ol high -mt off elevator_map.ncd elevator.ncd elevator.pcf 
+trce -intstyle ise -v 3 -s 1 -n 3 -fastpaths -xml elevator.twx elevator.ncd -o elevator.twr elevator.pcf -ucf contraints.ucf 
+xst -intstyle ise -ifn "D:/Users/Documents/elevator_final_bun/elevator.xst" -ofn "D:/Users/Documents/elevator_final_bun/elevator.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc contraints.ucf -p xc7a100t-csg324-1 elevator.ngc elevator.ngd  
+map -intstyle ise -p xc7a100t-csg324-1 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -mt off -ir off -pr off -lc off -power off -o elevator_map.ncd elevator.ngd elevator.pcf 
+par -w -intstyle ise -ol high -mt off elevator_map.ncd elevator.ncd elevator.pcf 
+trce -intstyle ise -v 3 -s 1 -n 3 -fastpaths -xml elevator.twx elevator.ncd -o elevator.twr elevator.pcf -ucf contraints.ucf 
+xst -intstyle ise -ifn "C:/Users/ANDREEA/Downloads/elevator_final_bun/elevator_final_bun/elevator.xst" -ofn "C:/Users/ANDREEA/Downloads/elevator_final_bun/elevator_final_bun/elevator.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc contraints.ucf -p xc7a100t-csg324-1 elevator.ngc elevator.ngd  
+map -intstyle ise -p xc7a100t-csg324-1 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -mt off -ir off -pr off -lc off -power off -o elevator_map.ncd elevator.ngd elevator.pcf 
+par -w -intstyle ise -ol high -mt off elevator_map.ncd elevator.ncd elevator.pcf 
+trce -intstyle ise -v 3 -s 1 -n 3 -fastpaths -xml elevator.twx elevator.ncd -o elevator.twr elevator.pcf -ucf contraints.ucf 
